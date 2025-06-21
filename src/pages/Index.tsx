@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import SearchForm from "@/components/SearchForm";
 import PopularBrands from "@/components/PopularBrands";
 import RecentListings from "@/components/RecentListings";
+import ServiceCards from "@/components/ServiceCards";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -29,6 +30,8 @@ const Index = () => {
         <PopularBrands />
         <RecentListings />
       </div>
+
+      <ServiceCards />
 
       <Footer />
     </div>
